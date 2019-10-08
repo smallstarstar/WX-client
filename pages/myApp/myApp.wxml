@@ -1,0 +1,4 @@
+<view class="container">
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
+      </image>
+</view>

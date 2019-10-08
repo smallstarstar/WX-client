@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/components/content",
+    "pages/myApp/myApp",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "点餐系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "selectedColor": "#ff2d55",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/components/content",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/myApp/myApp",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

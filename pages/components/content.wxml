@@ -1,0 +1,3 @@
+<!--pages/components/content.wxml-->
+<text>{{userName}}</text>
+<view>111</view>
