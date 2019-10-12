@@ -1,4 +1,5 @@
 <view class="container">
-  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover">
+  <image class="userinfo-avatar" src="{{userInfoImg}}" mode="cover">
       </image>
 </view>
+<button bindtap="chooseImg" type="primaty">点击</button>

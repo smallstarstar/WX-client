@@ -1,0 +1,10 @@
+  <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{listImg}}" wx:key="{{index}}">
+          <swiper-item >
+            <image src="{{item.foodPicture}}" bind:tap="handleChoose" data-index="{{index}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>

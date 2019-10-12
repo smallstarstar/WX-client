@@ -1,3 +1,3 @@
-<!--pages/components/content.wxml-->
-<text>{{userName}}</text>
-<view>111</view>
+<view>
+  <app-swaper listImg="{{listImg}}" bind:getPictInfo="handlePicter" />            
+</view>

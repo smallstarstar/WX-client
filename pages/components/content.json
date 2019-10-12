@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "首页"
+  "usingComponents": {
+    "app-swaper":"/components/app-swaper/app-swaper"
+  },
+  "navigationBarTitleText": "首页中心"
 }
